@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+{% extends 'base.html' %}
+{% load comments_extras %}
+
+{% block main %}
+  {% show_comment_form post form %}
+{% endblock main %}
+</body>
+</html>
